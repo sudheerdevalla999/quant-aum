@@ -1,0 +1,40 @@
+# ============================================================
+#  Quant-aum site settings
+#  You can safely edit the values in quotes below.
+#  (Changes here can take ~2 minutes to appear on the site.)
+# ============================================================
+
+title: "Quant-aum"
+tagline: "Where the Quantum Meets Aum"
+description: "Quant-aum explores and simplifies the correlations between modern science and the spiritual wisdom of India — Advaita, the Upanishads, the Puranas and more."
+author: "Sudheer Devalla"
+location: "Hyderabad"
+url: "https://quant-aum.com"
+baseurl: ""
+
+# Social links: paste your full profile URL between the quotes to show it in the footer.
+# Leave empty ("") to hide.
+youtube: ""
+instagram: ""
+spotify: ""
+x_twitter: ""
+linkedin: ""
+
+# ---------- Technical settings (no need to change) ----------
+permalink: /blog/:title.html
+timezone: Asia/Kolkata
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+exclude:
+  - README.md
+  - .pages.yml

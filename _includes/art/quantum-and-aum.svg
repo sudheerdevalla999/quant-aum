@@ -1,0 +1,12 @@
+<svg viewBox="0 0 920 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs>
+          <radialGradient id="qa-ga" cx="50%" cy="50%" r="65%"><stop offset="0" stop-color="#3a2f7a"/><stop offset="1" stop-color="#0d0b1f"/></radialGradient>
+        </defs>
+        <rect width="920" height="400" fill="url(#qa-ga)"/>
+        <g fill="none" stroke="#e8a33d" stroke-opacity=".4">
+          <circle cx="460" cy="200" r="50"/><circle cx="460" cy="200" r="95"/><circle cx="460" cy="200" r="140"/><circle cx="460" cy="200" r="185"/>
+        </g>
+        <path d="M0 200 C 60 90, 120 90, 180 200 S 300 310, 360 200 S 480 90, 540 200 S 660 310, 720 200 S 860 90, 920 200" fill="none" stroke="#f3c77d" stroke-width="3"/>
+        <path d="M0 200 C 60 140, 120 140, 180 200 S 300 260, 360 200 S 480 140, 540 200 S 660 260, 720 200 S 860 140, 920 200" fill="none" stroke="#8b7cf6" stroke-width="2" stroke-opacity=".7"/>
+        <text x="460" y="226" text-anchor="middle" font-size="76" fill="#ece7dc" font-family="serif">ॐ</text>
+      </svg>

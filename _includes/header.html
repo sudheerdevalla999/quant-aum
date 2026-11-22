@@ -1,0 +1,13 @@
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="none" stroke="#e8a33d" stroke-width="3"/><path d="M10 32 C 16 19, 22 19, 27 32 S 37 45, 42 32 S 50 21, 54 32" fill="none" stroke="#f3c77d" stroke-width="3" stroke-linecap="round"/><circle cx="32" cy="32" r="3.2" fill="#8b7cf6"/></svg>
+      <span>Quant<em>-</em>aum</span>
+    </a>
+    <ul>
+      <li><a class="link" href="{{ '/' | relative_url }}"{% if page.url == "/" or page.url == "/index.html" %} aria-current="page"{% endif %}>Home</a></li>
+      <li><a class="link" href="{{ '/blog/' | relative_url }}"{% if page.url contains "/blog/" %} aria-current="page"{% endif %}>Blog</a></li>
+      <li><a class="link" href="{{ '/about.html' | relative_url }}"{% if page.url == "/about.html" %} aria-current="page"{% endif %}>About</a></li>
+    </ul>
+  </nav>
+</header>

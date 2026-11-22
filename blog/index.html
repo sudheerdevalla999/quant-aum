@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blog — Quant-aum</title>
-  <meta name="description" content="Essays connecting modern science and India's spiritual wisdom.">
-  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
-</head>
-<body>
-
-<header class="site-header">
-  <nav class="nav">
-    <a class="brand" href="../index.html" aria-label="Quant-aum home">
-      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="none" stroke="#e8a33d" stroke-width="3"/><path d="M10 32 C 16 19, 22 19, 27 32 S 37 45, 42 32 S 50 21, 54 32" fill="none" stroke="#f3c77d" stroke-width="3" stroke-linecap="round"/><circle cx="32" cy="32" r="3.2" fill="#8b7cf6"/></svg>
-      <span>Quant<em>-</em>aum</span>
-    </a>
-    <ul>
-      <li><a class="link" href="../index.html">Home</a></li>
-      <li><a class="link" href="index.html" aria-current="page">Blog</a></li>
-      <li><a class="link" href="../about.html">About</a></li>
-    </ul>
-  </nav>
-</header>
-
+---
+layout: default
+title: Blog
+description: Essays connecting modern science and India's spiritual wisdom.
+---
 <header class="article-head">
   <div class="eyebrow">The Blog</div>
   <h1>Essays</h1>
@@ -34,50 +10,7 @@
 </header>
 
 <section class="section" style="padding-top:20px">
-  <!-- NEW POSTS: copy this <a class="post-card"> block, paste it ABOVE the newest one, and change the details -->
-  <a class="post-card" href="sati-parvati-conservation-of-energy.html">
-    <div class="art">
-      <svg viewBox="0 0 400 300" aria-hidden="true">
-        <defs><radialGradient id="g2" cx="50%" cy="55%" r="65%"><stop offset="0" stop-color="#3a2050"/><stop offset="1" stop-color="#16132e"/></radialGradient></defs>
-        <rect width="400" height="300" fill="url(#g2)"/>
-        <path d="M95 235 C 60 210, 72 160, 95 128 C 99 152, 113 158, 118 140 C 136 172, 136 215, 95 235 Z" fill="#e8a33d"/>
-        <path d="M95 233 C 82 220, 86 196, 96 184 C 98 197, 106 199, 108 192 C 114 208, 111 224, 95 233 Z" fill="#fff3d6" fill-opacity=".6"/>
-        <path d="M245 240 L 300 140 L 325 175 L 343 150 L 385 240 Z" fill="#8b7cf6"/>
-        <path d="M300 140 L 312 162 L 304 159 L 296 167 L 292 155 Z" fill="#ece7dc"/>
-        <path d="M135 190 C 160 150, 185 150, 205 190 S 240 220, 255 200" fill="none" stroke="#f3c77d" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
-      </svg>
-    </div>
-    <div>
-      <div class="meta">Story &amp; Science · 7 Nov 2026 · 10 min read</div>
-      <h3>Sati, Parvati and the Conservation of Energy</h3>
-      <p>Shakti means energy. A goddess vanishes into fire and returns as the daughter of a mountain — read alongside the most trusted law in physics.</p>
-      <span class="more">Read the essay →</span>
-    </div>
-  </a>
-  <a class="post-card" href="quantum-and-aum.html">
-    <div class="art">
-      <svg viewBox="0 0 400 300" aria-hidden="true">
-        <defs><radialGradient id="g1" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#3a2f7a"/><stop offset="1" stop-color="#16132e"/></radialGradient></defs>
-        <rect width="400" height="300" fill="url(#g1)"/>
-        <g fill="none" stroke="#e8a33d" stroke-opacity=".55"><circle cx="200" cy="150" r="40"/><circle cx="200" cy="150" r="70"/><circle cx="200" cy="150" r="100"/><circle cx="200" cy="150" r="130"/></g>
-        <path d="M20 150 C 60 70, 100 70, 140 150 S 220 230, 260 150 S 340 70, 380 150" fill="none" stroke="#f3c77d" stroke-width="3"/>
-        <text x="200" y="168" text-anchor="middle" font-size="52" fill="#ece7dc" font-family="serif">ॐ</text>
-      </svg>
-    </div>
-    <div>
-      <div class="meta">Essay · 7 Nov 2026 · 8 min read</div>
-      <h3>Quantum and Aum: Why I'm Starting This Journey</h3>
-      <p>One word from a physics lab, one from the Upanishads, three first resonances, and a promise about honest exploration.</p>
-      <span class="more">Read the essay →</span>
-    </div>
-  </a>
+  {% for post in site.posts %}
+    {% include post-card.html post=post %}
+  {% endfor %}
 </section>
-
-<footer class="site-footer">
-  <a class="brand" href="../index.html"><span>Quant<em>-</em>aum</span></a>
-  <p>Science and spirit, explored with curiosity and care.</p>
-  <p style="margin-top:8px">© 2026 Quant-aum · Written by Sudheer Devalla, Hyderabad</p>
-</footer>
-
-</body>
-</html>

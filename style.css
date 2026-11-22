@@ -199,3 +199,23 @@ img, svg { display: block; max-width: 100%; }
   .btn.ghost { margin-left: 0; margin-top: 12px; }
   .hero { padding: 90px 20px 80px; }
 }
+
+/* ---------- Jekyll additions ---------- */
+article .prose > p:first-of-type::first-letter {
+  float: left; font-family: var(--serif); font-size: 4.6rem; line-height: .85; padding: 8px 10px 0 0; color: var(--saffron);
+}
+.post-card .art svg, .post-card .art img { width: 100%; height: 100%; object-fit: cover; }
+.article-art .frame svg, .article-art .frame img { width: 100%; height: auto; }
+.prose img { border-radius: 14px; margin: 1.6em 0; }
+.prose a { text-decoration: underline; text-underline-offset: 3px; }
+.post-nav { display: flex; justify-content: space-between; gap: 20px; margin-top: 3em; padding-top: 1.6em; border-top: 1px solid var(--line); font-family: var(--sans); font-size: .9rem; }
+.post-nav a { text-decoration: none; }
+.post-nav .next { text-align: right; margin-left: auto; }
+.post-nav small { display: block; color: var(--ink-soft); letter-spacing: .12em; text-transform: uppercase; font-size: .7rem; }
+.post-card .art { background: #0d0b1f; display: flex; align-items: center; }
+.post-card .art svg { height: auto; }
+.prose blockquote p { margin: 0; }
+.prose blockquote p + p { margin-top: 10px; font-family: var(--sans); font-style: normal; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+.prose blockquote p + p em { color: inherit; font-style: normal; }
+.post-card .art { aspect-ratio: 23 / 10; }
+.page-prose > h2:first-child { margin-top: 0; }

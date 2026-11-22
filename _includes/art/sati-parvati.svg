@@ -1,0 +1,15 @@
+<svg viewBox="0 0 920 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs>
+          <radialGradient id="sp-gb" cx="50%" cy="55%" r="70%"><stop offset="0" stop-color="#3a2050"/><stop offset="1" stop-color="#0d0b1f"/></radialGradient>
+          <linearGradient id="sp-fl" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#e8a33d"/><stop offset="1" stop-color="#f3c77d" stop-opacity=".2"/></linearGradient>
+          <linearGradient id="sp-mt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b7cf6"/><stop offset="1" stop-color="#2a2160"/></linearGradient>
+        </defs>
+        <rect width="920" height="400" fill="url(#sp-gb)"/>
+        <path d="M190 320 C 130 280, 150 200, 190 150 C 196 190, 220 200, 228 170 C 260 220, 260 290, 190 320 Z" fill="url(#sp-fl)"/>
+        <path d="M190 318 C 165 295, 172 255, 192 232 C 196 255, 210 258, 214 245 C 226 275, 220 305, 190 318 Z" fill="#fff3d6" fill-opacity=".55"/>
+        <path d="M600 330 L 700 170 L 745 230 L 780 190 L 860 330 Z" fill="url(#sp-mt)"/>
+        <path d="M700 170 L 722 205 L 708 200 L 694 214 L 686 194 Z" fill="#ece7dc" fill-opacity=".8"/>
+        <path d="M250 250 C 300 170, 350 170, 400 250 S 500 330, 550 250 S 590 200, 610 230" fill="none" stroke="#f3c77d" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+        <g fill="#f3c77d"><circle cx="320" cy="200" r="3"/><circle cx="430" cy="280" r="2.5"/><circle cx="520" cy="270" r="2.5"/><circle cx="470" cy="150" r="1.6"/><circle cx="380" cy="320" r="1.6"/></g>
+        <text x="460" y="372" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#b9b2c9">E<tspan baseline-shift="sub" font-size="14">before</tspan> = E<tspan baseline-shift="sub" font-size="14">after</tspan></text>
+      </svg>

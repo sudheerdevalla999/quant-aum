@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign words = content | number_of_words %}{% assign mins = words | divided_by: 200 | at_least: 1 %}
+<article>
+  <header class="article-head">
+    <div class="eyebrow">{{ page.label | default: "Essay" }}</div>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="sub">{{ page.subtitle }}</p>{% endif %}
+    <p class="byline">By <strong>{{ page.author | default: site.author }}</strong> · {{ page.date | date: "%-d %B %Y" }} · {{ mins }} min read</p>
+  </header>
+
+  <div class="article-art">
+    <div class="frame">{% include post-art.html post=page %}</div>
+  </div>
+
+  <div class="prose">
+{{ content }}
+
+    <nav class="post-nav">
+      {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><small>← Previous</small>{{ page.previous.title }}</a>{% endif %}
+      {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><small>Next →</small>{{ page.next.title }}</a>{% endif %}
+    </nav>
+  </div>
+</article>

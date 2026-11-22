@@ -1,0 +1,79 @@
+# Settings for the Pages CMS editor (app.pagescms.org).
+# This tells the editor which files are posts and which fields to show.
+
+media:
+  input: assets/images
+  output: /assets/images
+  categories: [image]
+
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      primary: title
+      fields: [title, date]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: subtitle
+        label: Subtitle (shown under the title)
+        type: string
+      - name: description
+        label: Short summary (shown on the blog page and in Google)
+        type: text
+      - name: date
+        label: Publish date
+        type: date
+      - name: label
+        label: Small label above the title (e.g. Essay · No. 3)
+        type: string
+      - name: image
+        label: Cover image (optional)
+        type: image
+      - name: art
+        label: Built-in illustration (leave as is, or empty for the default)
+        type: string
+      - name: body
+        label: Post
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: about
+    label: About page
+    type: file
+    path: about.md
+    fields:
+      - name: title
+        label: Menu title
+        type: string
+      - name: heading
+        label: Page heading
+        type: string
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: description
+        label: Google description
+        type: text
+      - name: layout
+        label: Layout (do not change)
+        type: string
+      - name: permalink
+        label: Web address (do not change)
+        type: string
+      - name: eyebrow
+        label: Small label above heading
+        type: string
+      - name: body
+        label: Page text
+        type: rich-text
+        options:
+          format: markdown
