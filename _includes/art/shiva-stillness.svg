@@ -1,0 +1,19 @@
+<svg viewBox="0 0 920 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+  <defs>
+    <radialGradient id="ss-bg" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#1c1840"/><stop offset="1" stop-color="#0d0b1f"/></radialGradient>
+    <radialGradient id="ss-still" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#0d0b1f"/><stop offset=".7" stop-color="#14112b"/><stop offset="1" stop-color="#2a2160"/></radialGradient>
+  </defs>
+  <rect width="920" height="400" fill="url(#ss-bg)"/>
+  <circle cx="460" cy="200" r="120" fill="url(#ss-still)" stroke="#8b7cf6" stroke-opacity=".5" stroke-width="1.5"/>
+  <g fill="none" stroke="#f3c77d" stroke-linecap="round">
+    <path d="M60 200 C 100 150, 140 150, 180 200 S 260 250, 300 200 S 330 170, 345 200" stroke-width="3"/>
+    <path d="M575 200 C 590 230, 620 230, 640 200 S 700 140, 740 200 S 820 260, 860 200" stroke-width="3"/>
+    <path d="M60 200 C 110 120, 160 120, 210 200 S 290 280, 345 200" stroke-width="1.5" stroke-opacity=".45"/>
+    <path d="M575 200 C 630 280, 690 280, 740 200 S 820 120, 860 200" stroke-width="1.5" stroke-opacity=".45"/>
+  </g>
+  <g fill="none" stroke="#e8a33d" stroke-opacity=".22">
+    <circle cx="460" cy="200" r="150"/><circle cx="460" cy="200" r="180"/>
+  </g>
+  <circle cx="460" cy="200" r="4" fill="#ece7dc"/>
+  <g fill="#f3c77d"><circle cx="150" cy="110" r="1.6"/><circle cx="780" cy="300" r="1.6"/><circle cx="820" cy="90" r="1.2"/><circle cx="110" cy="320" r="1.2"/></g>
+</svg>
