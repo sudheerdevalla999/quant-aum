@@ -5,6 +5,7 @@ description: "Shakti means energy. A goddess vanishes into fire and returns as t
 date: 2026-11-07 13:00:00 +0530
 label: "Essay · No. 2 · Story & Science"
 art: sati-parvati.svg
+social_image: /assets/social/sati-parvati-conservation-of-energy.jpg
 ---
 
 Start with a single word: **Shakti**. In Sanskrit it means power, capacity, energy. In the Indian tradition it is also the name of the Goddess herself, the living energy of the universe, inseparable from Shiva just as heat is inseparable from fire.

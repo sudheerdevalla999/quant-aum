@@ -37,6 +37,9 @@ content:
       - name: image
         label: Cover image (optional)
         type: image
+      - name: social_image
+        label: Share preview picture for Facebook/LinkedIn (optional, 1200x630; leave empty to use the cover image or the site default)
+        type: image
       - name: art
         label: Built-in illustration (leave as is, or empty for the default)
         type: string

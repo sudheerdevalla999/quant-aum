@@ -12,6 +12,9 @@ location: "Hyderabad"
 url: "https://quant-aum.com"
 baseurl: ""
 
+# Preview picture used when a page is shared on Facebook, LinkedIn, WhatsApp, X.
+social_image: "/assets/social/default.jpg"
+
 # Social links: paste your full profile URL between the quotes to show it in the footer.
 # Leave empty ("") to hide.
 youtube: ""

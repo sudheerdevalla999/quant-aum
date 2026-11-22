@@ -90,6 +90,16 @@ Special boxes (copy these exactly):
 
 ---
 
+## Share previews (Facebook, LinkedIn, WhatsApp, X)
+
+When someone shares a link, these sites show a picture, the title and the summary.
+
+- **Every page** has a preview picture. Each essay has its own card in `assets/social/`, and any page without one uses `assets/social/default.jpg`.
+- **For a new post** in Pages CMS, set the **Share preview picture** field to an image of **1200 × 630 pixels** (JPG or PNG). If you leave it empty, the post's cover image is used. If there's no cover image either, the site's default card is used. Design a card in Canva with the "Facebook post (landscape)" or "LinkedIn post" size.
+- **If a platform shows an old or missing preview**, the platform has cached it. Make it re-read the page:
+  - LinkedIn: [linkedin.com/post-inspector](https://www.linkedin.com/post-inspector/). Paste the link and click **Inspect**.
+  - Facebook: [developers.facebook.com/tools/debug](https://developers.facebook.com/tools/debug/). Paste the link and click **Scrape Again**.
+
 ## Site settings: name, social links
 
 Open **`_config.yml`** and click the pencil ✏️. You can change the text in quotes:

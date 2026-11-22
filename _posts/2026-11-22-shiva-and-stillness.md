@@ -5,6 +5,7 @@ description: "Shiva as stillness and space, Shakti as energy and vibration, read
 date: 2026-11-22 22:00:00 +0530
 label: "Essay · No. 3 · Story & Science"
 art: shiva-stillness.svg
+social_image: /assets/social/shiva-and-stillness.jpg
 ---
 
 In the great temple of Chidambaram in Tamil Nadu, Shiva is worshipped in five elemental forms across five temples, and at Chidambaram the element is *ākāśa*, space. Behind a curtain in the sanctum lies what devotees call the *Chidambara Rahasyam*, the secret of Chidambaram. When the curtain is drawn back, there is nothing there. Just a space, hung with a garland of golden leaves.

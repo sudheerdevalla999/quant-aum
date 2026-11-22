@@ -5,6 +5,7 @@ description: "One word from a physics lab, one from the Upanishads, three first 
 date: 2026-11-07 10:00:00 +0530
 label: "Essay · No. 1"
 art: quantum-and-aum.svg
+social_image: /assets/social/quantum-and-aum.jpg
 ---
 
 In December 1900, a German physicist named Max Planck presented a strange idea he didn't fully believe himself. To explain how hot objects glow, he had to assume that energy isn't released in a smooth, continuous flow, but in tiny, separate packets. He called each packet a *quantum*, from the Latin for "how much." That small, reluctant assumption grew into quantum physics, the most accurate theory humanity has ever built and also the strangest.
