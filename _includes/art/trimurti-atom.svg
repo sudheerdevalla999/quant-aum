@@ -1,0 +1,44 @@
+<svg viewBox="0 0 920 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+  <defs>
+    <radialGradient id="ta-bg" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#231a4a"/><stop offset="1" stop-color="#0d0b1f"/></radialGradient>
+    <radialGradient id="ta-shakti" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#f3c77d" stop-opacity=".6"/><stop offset=".35" stop-color="#e8a33d" stop-opacity=".2"/><stop offset="1" stop-color="#e8a33d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ta-dot" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#f3c77d" stop-opacity=".45"/><stop offset="1" stop-color="#f3c77d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="920" height="400" fill="url(#ta-bg)"/>
+  <g fill="none" stroke="#e8a33d" stroke-opacity=".14">
+    <circle cx="460" cy="200" r="160"/><circle cx="460" cy="200" r="185"/>
+  </g>
+  <circle cx="460" cy="200" r="150" fill="url(#ta-shakti)"/>
+  <g fill="none" stroke-width="1.8">
+    <ellipse cx="460" cy="200" rx="130" ry="42" stroke="#e8a33d" stroke-opacity=".9"/>
+    <ellipse cx="460" cy="200" rx="130" ry="42" transform="rotate(60 460 200)" stroke="#8b7cf6" stroke-opacity=".95"/>
+    <ellipse cx="460" cy="200" rx="130" ry="42" transform="rotate(120 460 200)" stroke="#ece7dc" stroke-opacity=".7"/>
+  </g>
+  <circle cx="460" cy="200" r="20" fill="#e8a33d" fill-opacity=".25"/>
+  <circle cx="452" cy="195" r="7.5" fill="#e8a33d"/>
+  <circle cx="468" cy="196" r="7.5" fill="#8b7cf6"/>
+  <circle cx="460" cy="208" r="7.5" fill="#ece7dc"/>
+  <!-- Brahma: lotus -->
+  <circle cx="590" cy="200" r="26" fill="url(#ta-dot)"/>
+  <g transform="translate(590 202)" fill="#e8a33d">
+    <ellipse cx="0" cy="-7" rx="4.5" ry="10"/>
+    <ellipse cx="0" cy="-7" rx="4.5" ry="10" transform="rotate(-40 0 2)"/>
+    <ellipse cx="0" cy="-7" rx="4.5" ry="10" transform="rotate(40 0 2)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="8" transform="rotate(-75 0 2)" fill-opacity=".7"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="8" transform="rotate(75 0 2)" fill-opacity=".7"/>
+  </g>
+  <!-- Vishnu: chakra -->
+  <circle cx="395" cy="87" r="26" fill="url(#ta-dot)"/>
+  <g transform="translate(395 87)" fill="none" stroke="#8b7cf6" stroke-width="2">
+    <circle r="11"/><circle r="3" fill="#8b7cf6"/>
+    <path d="M0 -11V11M-11 0H11M-7.8 -7.8L7.8 7.8M-7.8 7.8L7.8 -7.8" stroke-width="1.3"/>
+  </g>
+  <!-- Shiva: trishula -->
+  <circle cx="395" cy="313" r="26" fill="url(#ta-dot)"/>
+  <g transform="translate(395 313)" fill="none" stroke="#ece7dc" stroke-width="2" stroke-linecap="round">
+    <path d="M0 -13V14"/>
+    <path d="M-9 -12C-9 -3 -5 0 0 0C5 0 9 -3 9 -12"/>
+    <path d="M0 -13l-2.5 4M0 -13l2.5 4"/>
+  </g>
+  <g fill="#f3c77d"><circle cx="150" cy="110" r="1.6"/><circle cx="780" cy="300" r="1.6"/><circle cx="820" cy="90" r="1.2"/><circle cx="110" cy="320" r="1.2"/><circle cx="700" cy="140" r="1.2"/><circle cx="230" cy="250" r="1.4"/></g>
+</svg>

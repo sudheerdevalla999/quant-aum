@@ -1,11 +1,11 @@
 ---
-title: "God in the Pillar, God in the Atom"
-subtitle: "Prahlada said the Lord was inside the stone. Physics has split the stone open, and what it found in every atom looks remarkably like Brahma, Vishnu, Shiva and Shakti."
-description: "Brahma, Vishnu, Shiva and Shakti read alongside the proton, neutron, electron and the forces that bind them, with Narasimha and the pillar as the guide."
+title: "Trimurti and the Atom: How Science Mirrors Brahma, Vishnu, Shiva and Shakti"
+subtitle: "Every atom is built, held together and transformed by forces that look remarkably like the four great principles of the Indian tradition."
+description: "Brahma, Vishnu, Shiva and Shakti read alongside the proton, neutron, electron and the forces that bind them, from Narasimha's story to Advaita."
 date: 2026-11-24 21:30:00 +0530
 label: "Essay · No. 4 · Story & Science"
-art: pillar-atom.svg
-social_image: /assets/social/god-in-the-pillar.jpg
+art: trimurti-atom.svg
+social_image: /assets/social/trimurti-and-the-atom.jpg
 ---
 
 A furious king points at a stone pillar and asks his young son one question: *Is your God in this too?*
